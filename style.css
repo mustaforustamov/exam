@@ -1,0 +1,288 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    color: white;
+}
+
+
+.container {
+    width: 80%;
+    margin: auto;
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0;
+    background-color: #004750;
+
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+nav ul li {
+    display: inline;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+    padding: 5px 10px;
+}
+
+nav ul li a.active {
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+.contact-btn {
+    border: 2px solid white;
+    padding: 5px 15px;
+    border-radius: 20px;
+}
+
+
+.about {
+    padding: 50px 0;
+    background-color: #004750;
+
+}
+
+.about h2 {
+    font-size: 36px;
+    font-weight: bold;
+}
+
+.about p {
+    font-size: 16px;
+    width: 60%;
+    line-height: 1.6;
+}
+
+.sct{
+    background-color: #004047;
+    padding: 238px 0px;
+}
+
+.sct-2-h1{
+    font-family: Livvic;
+    font-weight: 700;
+    font-size: 48px;
+    text-align: center;
+
+}
+
+.card{
+   width: 350px;
+   height: 305px;
+   background-color: #012F34;
+   text-align: center;
+   padding: 44px;
+   position: relative;
+}
+
+.nm{
+    font-family: Livvic;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 28px;
+    letter-spacing: 0px;
+    text-align: center;
+    margin-top: 24px;
+    color: #79C8C7;
+}
+
+.sct-2-btn{
+    width: 56px;
+    height: 56px;
+    left: 147px;
+    background-color: #F67E7E;
+    border-radius: 100px;
+    position: absolute;
+    bottom: 0;
+    transform: translateY(50%);
+    
+}
+
+.card-text{
+    font-family: Livvic;
+font-size: 15px;
+line-height: 25px;
+letter-spacing: 0px;
+text-align: center;
+
+}
+
+.cards-h1-parent{
+    display: flex;
+    justify-content: space-between;
+}
+
+.sc2{
+    background: #012F34;
+    padding: 113px 0;
+}
+
+
+
+/* .container-sct {
+    margin: 0 auto;
+    width: 1110px;
+} */
+
+
+h2{
+    font-family:sans-serif;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 48px;
+    letter-spacing: 0px;
+    text-align: center;
+    color: white;  
+}
+
+
+.iii{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 165px;
+}
+
+.iii img{
+    height: 22px;
+    margin-top: 57px;
+}
+
+
+.ft{
+    font-family: Livvic;
+font-weight: 700;
+font-size: 48px;
+line-height: 48px;
+letter-spacing: 0px;
+text-align: center;
+
+}
+
+.sct-3-h3{
+    font-family: Livvic;
+font-weight: 700;
+font-size: 48px;
+line-height: 48px;
+letter-spacing: 0px;
+color: #012F34;
+}
+
+.sct-3{
+    padding: 76px 264px;
+    background-color: #F67E7E;
+}
+
+.sct-3-btn{
+    padding: 12px 34px;
+    background-color: transparent;
+    border-radius: 50px;
+    color: white;
+}
+
+.sct-3-parent{
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer{
+    background-color: #004047;
+}
+
+
+
+@media (max-width: 1024px) {
+    .container {
+        width: 90%;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    nav ul {
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+    }
+
+    .about p {
+        width: 80%;
+    }
+}
+
+
+@media (max-width: 768px) {
+    header {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .cards-h1-parent {
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
+
+    .iii {
+        flex-direction: column;
+        align-items: center;
+        margin: 0 20px;
+    }
+
+    .sct-3-parent {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+}
+
+
+@media (max-width: 480px) {
+    .logo {
+        font-size: 20px;
+    }
+
+    .about h2 {
+        font-size: 28px;
+    }
+
+    .about p {
+        width: 90%;
+    }
+
+    .sct-2-h1, .ft, .sct-3-h3 {
+        font-size: 32px;
+    }
+
+    .sct-3 {
+        padding: 40px 20px;
+    }
+}
+.sctt {
+    margin: 163px;
+}
